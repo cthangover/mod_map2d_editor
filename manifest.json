@@ -1,0 +1,29 @@
+{
+  "id": "map2d_editor",
+  "name": "2D Terrain Map Editor",
+  "version": "0.1.0",
+  "author": "ct",
+  "description": "Forms for prepared terrain maps, image generation, named points and initial exploration.",
+  "categories": [
+    "tools",
+    "editor"
+  ],
+  "depends": [
+    "map2d_base>=0.1.0",
+    "fog2d_editor>=0.1.0"
+  ],
+  "sources": [
+    "src/**/*.cs"
+  ],
+  "test_sources": [
+    "tests/*.cs"
+  ],
+  "test_suites": [
+    {
+      "id": "gui",
+      "activate": [
+        "--itest=map2d_editor_gui"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "Kind": "rpg_object",
+  "Items": [
+    {
+      "Id": "map2d_editor_probe/floor",
+      "Form": "Sprite",
+      "Footprint": {
+        "Size": [
+          4,
+          3
+        ]
+      },
+      "Parts": [
+        {
+          "Id": "floor",
+          "Image": "map2d_editor_probe/floor",
+          "Geometry": "Ground",
+          "Size": [
+            4,
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "Id": "map2d_editor_probe/book",
+      "Form": "Sprite",
+      "Parts": [
+        {
+          "Id": "base",
+          "Image": "map2d_editor_probe/floor",
+          "Geometry": "Ground",
+          "Crop": [
+            0,
+            0,
+            32,
+            32
+          ],
+          "Size": [
+            1,
+            1
+          ]
+        }
+      ],
+      "States": [
+        {
+          "Id": "changed",
+          "When": "probe:changed",
+          "Parts": [
+            {
+              "Id": "base",
+              "Image": "map2d_editor_probe/red",
+              "Geometry": "Ground",
+              "Size": [
+                1,
+                1
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Id": "map2d_editor_probe/actor",
+      "Form": "Actor",
+      "Charset": "map2d_editor_probe/actor"
+    }
+  ]
+}

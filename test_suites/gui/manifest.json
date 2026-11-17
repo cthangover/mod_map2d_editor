@@ -1,0 +1,6 @@
+{
+  "name": "Prepared-map generation and native authoring contracts",
+  "test_sources": [
+    "tests/*.cs"
+  ]
+}

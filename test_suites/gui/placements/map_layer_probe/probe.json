@@ -1,0 +1,21 @@
+{
+  "Kind": "rpg_placement",
+  "Items": [
+    {
+      "Id": "map_layer_probe/floor",
+      "Object": "map2d_editor_probe/floor"
+    },
+    {
+      "Id": "map_layer_probe/book",
+      "Object": "map2d_editor_probe/book",
+      "X": 2,
+      "Y": 1
+    },
+    {
+      "Id": "map_layer_probe/actor",
+      "Object": "map2d_editor_probe/actor",
+      "X": 1,
+      "Y": 1
+    }
+  ]
+}

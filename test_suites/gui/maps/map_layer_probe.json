@@ -1,0 +1,12 @@
+{
+  "Kind": "rpg_map",
+  "Items": [
+    {
+      "Id": "map_layer_probe",
+      "Width": 4,
+      "Height": 3,
+      "TileSize": 32,
+      "PatchSize": 128
+    }
+  ]
+}
